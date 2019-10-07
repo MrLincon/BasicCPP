@@ -40,8 +40,6 @@ void stringConcatenation2(){
         cout<<"\n";
 
         cout<<"String: "<<strcat(s1,s2);
-
-
 }
 
 void stringCase(){
