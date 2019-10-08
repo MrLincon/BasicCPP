@@ -9,13 +9,39 @@ void stringCase();
 void stringCaseWithLoop();
 
 int main(){
-    //stringConcatenation1();
-    //stringConcatenation2();
-    //stringCase();
-    //stringCaseWithLoop();
+    int choice;
+
+    cout<< "List of programs:"<<endl;
+    cout<< "1:  stringConcatenation1()"<<endl;
+    cout<< "2:  stringConcatenation2()"<<endl;
+    cout<< "3:  stringCase()"<<endl;
+    cout<< "4:  stringCaseWithLoop()"<<endl;
+    cout<< "\n";
+    cout<<"Enter your choice: ";
+    cin>>choice;
+
+    switch(choice){
+        case 1:
+            stringConcatenation1();
+            break;
+        case 2:
+            stringConcatenation2();
+            break;
+        case 3:
+            stringCase();
+            break;
+        case 4:
+            stringCaseWithLoop();
+            break;
+        default:
+            cout<< "Something wrong!";
+            cout<< "\n";
+            break;
+    }
 }
 
 void stringConcatenation1(){
+        cout<< "\n";
         string str1,str2;
         cout<<"Enter string 1: ";
         getline(cin,str1);
