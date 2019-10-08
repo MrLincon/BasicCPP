@@ -20,7 +20,21 @@ int main(){
     cout<<"Enter your choice: ";
     cin>>choice;
 
-    switch(choice){
+    if(choice==1){
+        string str1,str2;
+        cout<<"Enter string 1: ";
+        getline(cin,str1);
+        cout<<"\n";
+
+        cout<<"Enter string 2: ";
+        getline(cin,str2);
+        cout<<"\n";
+
+        cout<<"String: "<<str1+" "+str2;
+        cout<<"\n";
+    }
+
+   /* switch(choice){
         case 1:
                 stringConcatenation1();
             break;
@@ -37,7 +51,7 @@ int main(){
                 cout<< "Something wrong!";
                 cout<< "\n";
             break;
-    }
+    }*/
 }
 
 void stringConcatenation1(){
