@@ -18,9 +18,11 @@ int main(){
     cout<< "4:  stringCaseWithLoop()"<<endl;
     cout<< "\n";
     cout<<"Enter your choice: ";
-    cin>>choice;
+    //cin>>choice;
 
-    switch(choice){
+    stringCaseWithLoop();
+
+    /*switch(choice){
         case 1:
             stringConcatenation1();
             break;
@@ -37,7 +39,7 @@ int main(){
             cout<< "Something wrong!";
             cout<< "\n";
             break;
-    }
+    }*/
 }
 
 void stringConcatenation1(){
