@@ -2,9 +2,7 @@
 using namespace std;
 
 int main(){
-    int i;
-    int j;
-    int p;
+    int i,j,p;
     string choice;
 
     lable:
