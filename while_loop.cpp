@@ -10,5 +10,6 @@ int main(){
         i++; //increment
     }
 
+    return 0;
 }
 

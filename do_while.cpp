@@ -11,6 +11,7 @@ int main(){
 
     }while(i<=10); //expression
 
+    return 0;
 }
 
 

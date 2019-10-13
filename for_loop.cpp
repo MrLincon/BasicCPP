@@ -10,4 +10,6 @@ int main(){
     for(i=0;i<=10;i++){
         cout<< "This is a simple for loop!"<<endl;
     }
+
+    return 0;
 }

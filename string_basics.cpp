@@ -50,6 +50,8 @@ int main(){
                      cout<< "\n";
                      cout<< "Thank you!";
                 }
+
+        return 0;
 }
 
 void stringConcatenation1(){

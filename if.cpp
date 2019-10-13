@@ -12,4 +12,6 @@ int main(){
     }if(i>10){
         cout<<i<<" "<< "is greater than 10"<<endl;
     }
+
+    return 0;
 }

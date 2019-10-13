@@ -47,8 +47,9 @@ int main(){
     }else{
         cout<< "Thank You!"<<endl;
     }
-}
 
+    return 0;
+}
 
 
 
